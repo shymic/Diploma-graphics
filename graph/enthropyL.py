@@ -11,9 +11,9 @@ y22=[0.979385248,0.972449277,0.968971834];
 y23=[0.99253716,0.989958891,0.988662413];
 y24=[0.998226563,0.997608238,0.997296741];
 h4= plt.plot(x,y3,'-', label=r'$ H_l(0) $', color='black')
-h= plt.plot(x,y4,'-', label=r'$ H_l(0.1) $', color='black' , marker='o' , mew=0.5, mfc='1',  c='k')
-h2= plt.plot(x,y1,'-o', label=r'$ H_l(0.3) $', color='black')
-h3= plt.plot(x,y2,'-^', label=r'$ H_l(0.5) $', color='black')
+h= plt.plot(x,y4,'--', label=r'$ H_l(0.1) $', color='black' , marker='o' , mew=0.5, mfc='1',  c='k')
+h2= plt.plot(x,y1,'--o', label=r'$ H_l(0.3) $', color='black')
+h3= plt.plot(x,y2,'--^', label=r'$ H_l(0.5) $', color='black')
 h20= plt.plot(x2,y21,'o', label=r'$ H_l^o(0.5) $', color='black',marker='v' , mew=0.5, mfc='1',  c='k')
 h30= plt.plot(x2,y22,'o', label=r'$ H_l^o(0.3) $', color='black',marker='D' , mew=0.5, mfc='1',  c='k')
 h40= plt.plot(x2,y23,'o', label=r'$ H_l^o(0.1) $', color='black',marker='x' , mew=0.5, mfc='1',  c='k')
